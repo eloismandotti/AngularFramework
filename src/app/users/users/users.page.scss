@@ -1,0 +1,31 @@
+h1 {
+  color: white;
+  margin-left: 4rem;
+  padding-top: 3rem;
+  cursor:context-menu;
+}
+
+table {
+  background-color: #4d487d;
+  margin: 4rem;
+  width: 80%;
+
+  th, td {
+    color: white;
+    cursor: pointer;
+  }
+
+  .mat-row:hover .mat-cell {
+    border-color: #bcb0d1;
+  }
+}
+
+.bgu {
+  background-image: url(../../../img/users.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  margin-bottom: 5rem;
+  min-width: 100%;
+  height: 800px;
+}

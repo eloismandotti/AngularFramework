@@ -1,0 +1,23 @@
+.box-container {
+  width: 50%;
+  margin: 2em auto;
+  border: 1px solid grey;
+  padding: 1.5em;
+}
+
+.field-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: fit-content;
+}
+
+mat-stepper {
+  background-image: url(../../../img/images.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  margin-bottom: 5rem;
+  min-width: 100%;
+  height: 800px;
+}
