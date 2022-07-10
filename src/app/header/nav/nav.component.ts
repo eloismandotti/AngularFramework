@@ -8,13 +8,25 @@ import { AuthService } from 'src/app/auth/auth.service';
 })
 export class NavComponent implements OnInit {
 
+
   constructor(private authService: AuthService) { }
 
   ngOnInit(): void {
+    //this.isLoggedIn();
   }
 
   logout() {
     this.authService.logout();
   }
+
+  // isLoggedIn() {
+  //   if (JSON.parse(localStorage.getItem('isAuthenticated')!).auth_token == null) {
+  //     this.isLoggedin = false;
+  //     return this.isLoggedin;
+  //   }
+  //   else {
+  //     return true;
+  //   }
+  // }
 
 }
