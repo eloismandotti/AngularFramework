@@ -44,13 +44,16 @@ export class SignupPage implements OnInit {
       resp => {
         console.log(resp);
         this.error = undefined;
-        this.router.navigate(['/login'])
       },
       err  => {
         console.log(err.error);
         this.error = err.error;
       }
     )
+  }
+
+  redirect() {
+    this.router.navigate(['./login']);
   }
 
 }
